@@ -51,7 +51,7 @@ public:
     }
 };
 
-int main()
+static int Reference()
 {
     std::cout << "Hello World!\n";
     cout << "Theodore's First C++ project.\n" << endl;
