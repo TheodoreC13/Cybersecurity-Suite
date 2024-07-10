@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Tool Wrapper.cpp">
+    <ClCompile Include="Reference.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Addition.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
