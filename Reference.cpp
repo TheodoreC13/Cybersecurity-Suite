@@ -96,6 +96,31 @@ static int Reference()
     cerr << "An error has occurred.\n";     // unbuffered std error stream
     clog << "An error has occurred.\n";     // buffered standard error stream. Doesn't get written until full or flushed using flush()
 
+    /*
+        open(filename, mode) can be combined using bitwise '|' for example ios::out | ios:app
+        ios::in - input
+        ios::out - output
+        ios::binary - binary
+        ios::ate - initial position EoF
+        ios:app - append - new content is added to the end of previous content
+        ios::trunc - truncate - previous content is deleted and replace by new content
+        ofstream -> default output
+        ifstream -> default input
+        fstream -> no default
+    */
+    ofstream file;
+    file.open("out.txt"); //output file
+    if (file.is_open())
+    {
+        file << "Writing this to file";
+        file.close();
+    }
+    else cout << "Unable to open file." << endl;
+    //we can run a bash script using the system command
+    system("myfile.sh"); // this is useful for running a script but we can't get output from it
+    popen("file", "r"); // popen can do what I want https://man7.org/linux/man-pages/man3/popen.3.html
+ 
+
 
     return 0;
 }
