@@ -21,4 +21,9 @@ int main()
 
 	// package all of this,  encrypt for funsies
 	// send report?
+
+
+	// run all of this with an encryption wrapper
+
+	// Fuzzer?
 }

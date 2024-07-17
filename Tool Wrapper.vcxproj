@@ -131,6 +131,7 @@
     <ClCompile Include="Reference.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="EncryptionWrapper.sh" />
     <None Include="Script.sh" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

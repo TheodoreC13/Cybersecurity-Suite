@@ -24,5 +24,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Script.sh" />
+    <None Include="EncryptionWrapper.sh" />
   </ItemGroup>
 </Project>
