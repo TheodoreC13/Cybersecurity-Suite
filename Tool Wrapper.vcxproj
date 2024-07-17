@@ -132,7 +132,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="EncryptionWrapper.sh" />
-    <None Include="Script.sh" />
+    <None Include="BashReference.sh" />
+    <None Include="lightweightIDS.sh" />
+    <None Include="WindowsIDS.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="config.txt" />
+    <Text Include="IOC.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -23,7 +23,15 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Script.sh" />
+    <None Include="BashReference.sh" />
     <None Include="EncryptionWrapper.sh" />
+    <None Include="lightweightIDS.sh" />
+    <None Include="WindowsIDS.bat">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="config.txt" />
+    <Text Include="IOC.txt" />
   </ItemGroup>
 </Project>
