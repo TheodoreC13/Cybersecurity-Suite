@@ -18,6 +18,9 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="HostEnumeration.sh">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="EncryptionWrapper.sh" />
@@ -29,5 +32,6 @@
   <ItemGroup>
     <Text Include="config.txt" />
     <Text Include="IOC.txt" />
+    <Text Include="PortList.txt" />
   </ItemGroup>
 </Project>

@@ -25,7 +25,7 @@ fi
 if [[ "$OS" == "Linux" ]]
 then
 	ALERTFILE=$(pwd)/AlertFile.txt
-	# monitor a few logs
+	# monitor a few logs, this can be combined in a single line but Id rather have this listed here for simplicity. 
 	tail -f /var/log/apache2/access.log | egrep --line-buffered -i -f IOC.txt | tee -a $ALERTFILE &
 	tail -f /var/log/daemon.log | egrep --line-buffered -i -f IOC.txt | tee -a $ALERTFILE &
 	tail -f /var/log/auth.log | egrep --line-buffered -i -f IOC.txt | tee -a $ALERTFILE &
