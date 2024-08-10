@@ -1,8 +1,5 @@
-# CLI-Wrapper-for-Tools
-Wrapper for tool integration to create a report.
-First step was to decide language. I picked C++ to learn it due to it's popularity especially in cybersecurity.
-
-run a security analysis suite using some prompts to determine which checks are nessessary
+# Cybersecurity Suite
+This is a collection of basic tools used in various cybersecurity functions. Some tools are functional and used by me for CTF websites while others are just to explore basic concepts.
 
 Filelist | Description
 
@@ -10,7 +7,9 @@ lightweightIDS.sh  - I made a lightweight host based IDS that works on Windows o
 
 WindowsIDS.bat - Batch file used by lightweightIDS.sh for part of windows monitoring
 
-IOC.txt - Basic list of IOC to check for in various logs
+LinuxHostEnumeration.sh - script to run a bunch of common host enumeration commands for linux
+
+WindowsHostEnumeration.bat - windows enumeration script
 
 EncryptionWrapper.sh - Wrapper function written in bash to encrypt / decrypt and run a script.
 
