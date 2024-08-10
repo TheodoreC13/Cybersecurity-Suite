@@ -18,7 +18,7 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="HostEnumeration.sh">
+    <ClCompile Include="LinuxHostEnumeration.sh">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -26,6 +26,9 @@
     <None Include="EncryptionWrapper.sh" />
     <None Include="lightweightIDS.sh" />
     <None Include="WindowsIDS.bat">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="WindowsHostEnumeration.bat">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>

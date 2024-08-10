@@ -24,6 +24,7 @@
     <ProjectGuid>{81eee06a-816f-4969-9fc9-2212e4ffcbd3}</ProjectGuid>
     <RootNamespace>ToolWrapper</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Cybersecurity Suite</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,12 +128,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="HostEnumeration.sh" />
+    <ClCompile Include="LinuxHostEnumeration.sh" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="EncryptionWrapper.sh" />
     <None Include="lightweightIDS.sh" />
+    <None Include="WindowsHostEnumeration.bat" />
     <None Include="WindowsIDS.bat" />
   </ItemGroup>
   <ItemGroup>

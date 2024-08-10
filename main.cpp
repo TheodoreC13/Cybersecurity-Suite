@@ -1,5 +1,6 @@
 #include <iostream>
 #include <fstream>
+using namespace std;
 
 // basic idea is to run some tools and generate a report
 int main()
@@ -43,16 +44,13 @@ int main()
 	1701		-	UDP | L2TP: Layer 2 Tunneling Protocol, used to create point to point connections. Needs IPsec for encryption. Operates on data link, encapsulates packet at session
 	1723		-	UDP | PPTP: Point to Point Tunneling Protocol: DEPRECATED protocol for VPNs
 	*/
-	// scan ports
-	// scan services
-	// scan target
-
+	
+	
+	//Discovery
 
 	// Scan network using nmap -stealth scan , 
 	system("nmap -sS -T3");
 	system("nmap -sU -T3"); // udp ports
-	// Check for open ports using ncat
-	system("netstat -a");
 
 	// NetBios enumeration - netbios is for sharing resources and communication
 	system("nbtstat");
@@ -67,20 +65,6 @@ int main()
 	// pathping / netstat / dig
 	// packet sniffing?
 
-
-	
-	// System checks
-	// uname -a for linux, ver for windows
-	// vulnerability scans
-	// uname/hostname/whoami
-	// check running jobs with jobs -l
-	// ifconfig -s?
-	// netstat
-	// traceroute
-	// history
-	// check for /etc/shadow access
-
-	// package all of this,  encrypt for funsies
 	// send report?
 
 	// Fuzzer?
