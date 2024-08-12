@@ -1,6 +1,13 @@
 #include <iostream>
 #include <fstream>
+// Script - EncryptionWrapper.sh
+// Description - Used for basic encryption
+// Author - https://github.com/TheodoreC13
+// Version - 1.0
+// todo - Parse reports from the enumeration scripts
 using namespace std;
+
+
 
 // basic idea is to run some tools and generate a report
 int main()
@@ -63,8 +70,8 @@ int main()
 	// DNS enum
 
 	// pathping / netstat / dig
-	// packet sniffing?
-
+	
+	// run either linux / windows enumeration
 	// send report?
 
 	// Fuzzer?

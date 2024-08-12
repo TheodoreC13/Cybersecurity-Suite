@@ -1,10 +1,14 @@
 #!/bin/bash 
 # 
-# Basic Encryption Wrapper
-# first encrypt script with 
-# openssl aes-256-cbc -base64 -in innerscript.sh -out innerscript.enc -pass pass:mysecret
+# Script		-	EncryptionWrapper.sh
+# Description	-	Used for basic encryption
+# Author		-	https://github.com/TheodoreC13
+# Version		-	1.0
+# First encrypt the script with:
+#	openssl aes-256-cbc -base64 -in innerscript.sh -out innerscript.enc -pass pass:mysecret
+# This Script will decrypt and run the script
 
-encryptedScript = 'textgoeshere'
+encryptedScript = 'EncryptionHash'
 
 read -s password
 

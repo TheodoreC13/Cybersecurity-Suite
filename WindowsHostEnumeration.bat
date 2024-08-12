@@ -1,7 +1,7 @@
 echo off
 REM Script		-	WindowsHostEnumeration.bat
 REM Description	-	Used for local enumeration on a windows machine
-REM Auther		-	https://github.com/TheodoreC13
+REM Author		-	https://github.com/TheodoreC13
 REM Version		-	1.0
 REM ToDO		-	Take all information and format / scan for anything "interesting"
 REM Size		-	This batch script creates a text file. On my personal computer this ends up being about 700KB.

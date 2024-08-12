@@ -5,6 +5,7 @@
 
 # Config file for encryption + other stuff
 config.txt
+(test)output.txt
 
 # User-specific files
 *.rsuser
