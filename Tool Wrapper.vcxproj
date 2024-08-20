@@ -129,7 +129,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="LinuxHostEnumeration.sh" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Recon and Report.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="EncryptionWrapper.sh" />
