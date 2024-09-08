@@ -15,10 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Recon and Report.cpp">
+    <ClCompile Include="Report.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="LinuxHostEnumeration.sh">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scratch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -31,6 +34,7 @@
     <None Include="WindowsHostEnumeration.bat">
       <Filter>Source Files</Filter>
     </None>
+    <None Include="HostRecon.sh" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="config.txt" />

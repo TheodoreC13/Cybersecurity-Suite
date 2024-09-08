@@ -6,6 +6,7 @@
 # Config file for encryption + other stuff
 config.txt
 (test)output.txt
+scratch.cpp
 
 # User-specific files
 *.rsuser

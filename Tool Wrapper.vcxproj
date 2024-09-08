@@ -129,10 +129,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="LinuxHostEnumeration.sh" />
-    <ClCompile Include="Recon and Report.cpp" />
+    <ClCompile Include="Report.cpp" />
+    <ClCompile Include="scratch.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="EncryptionWrapper.sh" />
+    <None Include="HostRecon.sh" />
     <None Include="lightweightIDS.sh" />
     <None Include="WindowsHostEnumeration.bat" />
     <None Include="WindowsIDS.bat" />
