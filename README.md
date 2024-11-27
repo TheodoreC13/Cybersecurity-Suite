@@ -3,7 +3,7 @@ This repository contains a collection of mini-projects I've worked on relating t
 
 ## Projects
 * Host IDS for Linux/Windows
-	A very simple host-based Intrusion Detection System (IDS). There is one version for Linux and one version for Windows. This tool is aimed at detecting suspicious activities on a system by monitoring important files, serving as a basic introduction to host-based security monitoring. 
+	A very simple host-based Intrusion Detection System (IDS). There is one version for Linux and one version for Windows. This tool is aimed at detecting suspicious activities on a system by monitoring important files, serving as a basic introduction to host-based security monitoring. This is a very old implementation. If I were to rewrite this today I'd hook a lot of the windows API for better monitoring of a system.
 * Host Enumeration for Linux/Windows
 	These Scripts perform basic enumeration of system information on both Linux and Windows machines, looking for open permissions, running services, system permissions, open ports, and more all in effort to discover any potential vulnerabilities or misconfigurations on the target host. This helped me learn more about the basics of host exploitation and how to both conduct and defend against these probes.
 * Network Reconissance Script
@@ -18,8 +18,8 @@ This repository contains a collection of mini-projects I've worked on relating t
 	A collection of Crackmes I've completed and a journal of my experiences doing them. Repo coming soon. 
 	
 ## Upcoming Projects
-* Basic Malware Injection
-* LOIC DDoS attack for Network Traffic Analysis and Automated Response
+* IoT Router Firmware Vulnerability Assessment
+* IDS rewrite
 * Report Parsing 
 
 ## Usage Disclaimer
